@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elon - CoS lecture : règles de confidentialité</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.55; color: #1d1d1f; background: #fff; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+  small { color: #666; }
+</style>
+</head>
+<body>
+<h1>Elon - CoS lecture : règles de confidentialité</h1>
+<p><small>Dernière mise à jour : 16 octobre 2026</small></p>
+
+<p>« Elon - CoS lecture » est l'assistant personnel et privé de Serge Matos. Il n'est proposé à aucun autre utilisateur. Cette page décrit ce que l'application fait des données de ses comptes Google.</p>
+
+<h2>Données consultées</h2>
+<p>Avec l'accord explicite de Serge, donné compte par compte sur l'écran de consentement de Google, l'application lit en <strong>lecture seule</strong> :</p>
+<ul>
+  <li>ses e-mails Gmail (permission <code>gmail.readonly</code>) ;</li>
+  <li>ses agendas Google (permission <code>calendar.readonly</code>) ;</li>
+  <li>l'adresse e-mail du compte, pour vérifier qu'il s'agit bien du sien.</li>
+</ul>
+<p>L'application ne peut ni envoyer, ni modifier, ni supprimer, ni marquer comme lu un e-mail ; elle ne peut ni créer ni modifier un événement.</p>
+
+<h2>Utilisation</h2>
+<p>Les données sont lues uniquement au moment où Serge pose une question à son assistant (par exemple « qu'ai-je cette semaine ? »), pour lui répondre. Pour produire cette réponse, les extraits nécessaires sont transmis au modèle d'IA qui rédige la réponse : OpenAI, par l'abonnement personnel de Serge, ou en secours OpenRouter. Ils ne sont transmis à personne d'autre, ne sont ni vendus ni utilisés à des fins publicitaires, et ne servent pas à entraîner de modèles d'IA généralistes.</p>
+<p>L'utilisation et le transfert à toute autre application des informations reçues des API Google respectent le <a href="https://developers.google.com/terms/api-services-user-data-policy">Règlement sur les données utilisateur dans les services d'API Google</a>, y compris les exigences d'utilisation limitée (« Limited Use »).</p>
+
+<h2>Conservation</h2>
+<p>Les jetons d'accès sont gardés sur le serveur privé de Serge, dans un fichier accessible au seul service de l'assistant. Le contenu des e-mails et des événements n'est pas stocké en dehors des 30 derniers échanges de la conversation entre Serge et son assistant, qu'il peut effacer à tout moment. Rien n'est écrit dans les journaux du serveur.</p>
+
+<h2>Retrait de l'accès</h2>
+<p>L'accès peut être retiré à tout moment depuis <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> (« Elon - CoS lecture » → supprimer l'accès). Les jetons correspondants sont alors inutilisables.</p>
+
+<h2>Contact</h2>
+<p>Serge Matos : serge.matos@gmail.com</p>
+</body>
+</html>
